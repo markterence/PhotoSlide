@@ -7,3 +7,12 @@ C:\Users\Mark Terence\Documents\Visual Studio 2008\Projects\PhotoSlide\PhotoSlid
 C:\Users\Mark Terence\Documents\Visual Studio 2008\Projects\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.csproj.GenerateResource.Cache
 C:\Users\Mark Terence\Documents\Visual Studio 2008\Projects\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.exe
 C:\Users\Mark Terence\Documents\Visual Studio 2008\Projects\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.pdb
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.exe
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.pdb
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\bin\Debug\PhotoSlideCS.exe
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\bin\Debug\PhotoSlideCS.pdb
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\obj\Debug\ResolveAssemblyReference.cache
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.Form1.resources
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.PlaylistControl.resources
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.Properties.Resources.resources
+D:\Bitbucket\PhotoSlide\PhotoSlideCS\obj\Debug\PhotoSlideCS.csproj.GenerateResource.Cache
