@@ -1,0 +1,71 @@
+﻿void bg_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            //throw new NotImplementedException();
+            //timer1.Interval = (int)(totalDuration / 100) * 1000;
+            timer1.Start();
+            
+            //System.Diagnostics.Debug.WriteLine(totalDuration +"Total: "+(totalDuration/100)*1000 +" div "+(totalDuration / 100.0).ToString());
+            //totalDuration = 0;
+            GC.Collect();
+        }
+
+        double totalDuration;
+        void bg_DoWork(object sender, DoWorkEventArgs e)
+        {
+            BGWorkerOption1();
+            
+            //AnimatedGif myGif = new AnimatedGif(imageList.Files[fileIndex].path);
+            //System.Diagnostics.Debug.WriteLine("MyGifImageCount: " + myGif.Images.Count);
+            //double frame_delay = 0;
+            //for (int i = 0; i < myGif.Images.Count; i++)
+            //{
+            //    frame_delay = myGif.Images[i].Duration;
+            //    if (frame_delay == 0) {
+            //        frame_delay = 1;
+            //    }
+            //    totalDuration += frame_delay;
+            //}
+            
+        }
+        
+        //
+        void BGWorkerOption1() {
+             //GifPlayer gp = new GifPlayer(imageList.Files[fileIndex].path);
+            //throw new NotImplementedException();
+            //System.Diagnostics.Debug.WriteLine("Duration Of Frame: "+ ImageUtil.GetFrameSpeed(gp.GetNextFrame()));
+            System.Diagnostics.Debug.WriteLine("FrameCount:"+Image.FromFile(imageList.Files[fileIndex].path).GetFrameCount(FrameDimension.Time));
+            System.Diagnostics.Debug.WriteLine(imageList.Files[fileIndex].filename);
+            //Image[] frames = ImageUtil.GetFrames(Image.FromFile(imageList.Files[fileIndex].path));
+            //System.Diagnostics.Debug.WriteLine(Image.FromFile(imageList.Files[fileIndex].path).GetFrameCount(FrameDimension.Time));
+            //for (int i = 0; i < frames.Length; i++)
+            //{
+            //    double framespeed = ImageUtil.GetFrameSpeed(frames[i]);
+            //    System.Diagnostics.Debug.WriteLine("Image" + i + " Speed: " + framespeed);
+            //    GC.Collect();
+            //}
+                
+        }
+        
+        
+        
+//GifTest
+                        
+                        //bg.RunWorkerAsync();
+                        //timer1.Stop();
+                        //AnimatedGif myGif = new AnimatedGif(imageList.Files[fileIndex].path);
+                        //System.Diagnostics.Debug.WriteLine(imageList.Files[fileIndex].filename +" MyGifImageCount: " + myGif.Images.Count);
+                        //double frame_delay = 0;
+                        //for (int i = 0; i < myGif.Images.Count; i++)
+                        //{
+                        //    frame_delay = myGif.Images[i].Duration;
+                        //    if (frame_delay == 0)
+                        //    {
+                        //        frame_delay = 1;
+                        //    }
+                        //    totalDuration += frame_delay;
+                        //}
+                        //newInterval =(int)((totalDuration / 100.0) * 1000);
+                        //System.Diagnostics.Debug.WriteLine("Interval:" + newInterval);
+                        //timer1.Interval = newInterval;
+                        //System.Diagnostics.Debug.WriteLine("ENd");
+                        
