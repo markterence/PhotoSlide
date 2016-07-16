@@ -14,7 +14,7 @@ To *run*, you need
 
 To *compile*, you need
 
-* C# 5 compiler, such as:
+* C# compiler, such as:
 	* Visual Studio
 
 ### Development Status
